@@ -1,11 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PFabIO.Rebus.Retry.ErrorTracking.Extensions;
+using PFabIO.Rebus.Retry.ErrorTracking.Redis.Extensions;
 using Rebus.Config;
 using Rebus.RabbitMq;
 using Rebus.Retry.Simple;
-using Rebus.Routing.TypeBased;
 using StackExchange.Redis;
 using TestConsole.HostedServices;
 
@@ -46,6 +44,9 @@ using var build = hostBuilder.Build();
 
 await build.RunAsync();
 
-public class Marker
+namespace TestConsole
 {
+    public class Marker
+    {
+    }
 }

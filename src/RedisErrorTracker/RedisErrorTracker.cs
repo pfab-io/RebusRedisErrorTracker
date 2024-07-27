@@ -4,7 +4,7 @@ using Rebus.Retry;
 using Rebus.Retry.Simple;
 using StackExchange.Redis;
 
-namespace PFabIO.Rebus.Retry.ErrorTracking;
+namespace PFabIO.Rebus.Retry.ErrorTracking.Redis;
 
 public class RedisErrorTracker(
     RetryStrategySettings retryStrategySettings,

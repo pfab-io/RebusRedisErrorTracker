@@ -10,6 +10,8 @@
         <Authors>pfab.io</Authors>
         <PackageId>PFabIO.Rebus.Retry.ErrorTracking.Redis</PackageId>
         <Description>Rebus error tracker implementatiom with Redis</Description>
+        <RepositoryUrl>https://github.com/pfab-io/RebusRedisErrorTracker</RepositoryUrl>
+        <PackageTags>rebus redis</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

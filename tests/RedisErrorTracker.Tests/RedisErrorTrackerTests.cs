@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 using NSubstitute;
+using PFabIO.Rebus.Retry.ErrorTracking.Redis;
 using Rebus.Retry;
 using Rebus.Retry.Simple;
 using StackExchange.Redis;

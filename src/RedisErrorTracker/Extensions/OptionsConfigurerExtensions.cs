@@ -3,7 +3,7 @@ using Rebus.Retry;
 using Rebus.Retry.Simple;
 using StackExchange.Redis;
 
-namespace PFabIO.Rebus.Retry.ErrorTracking.Extensions;
+namespace PFabIO.Rebus.Retry.ErrorTracking.Redis.Extensions;
 
 public static class OptionsConfigurerExtensions
 {
