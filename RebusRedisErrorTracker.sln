@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D6252E4-F417-4D70-82F6-9AA45033B0EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisErrorTracker", "src\RedisErrorTracker\RedisErrorTracker.csproj", "{830A5481-D3B0-4FAE-A57D-7311F9665FDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1B90C800-E4D2-44AF-B444-16FD1D649305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "tests\TestConsole\TestConsole.csproj", "{E272C1CA-E31E-4A4E-A7F9-D8D01297D878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisErrorTracker.Tests", "tests\RedisErrorTracker.Tests\RedisErrorTracker.Tests.csproj", "{9C4596F2-C716-45BB-B15E-89A0310832E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{830A5481-D3B0-4FAE-A57D-7311F9665FDB} = {8D6252E4-F417-4D70-82F6-9AA45033B0EB}
+		{E272C1CA-E31E-4A4E-A7F9-D8D01297D878} = {1B90C800-E4D2-44AF-B444-16FD1D649305}
+		{9C4596F2-C716-45BB-B15E-89A0310832E8} = {1B90C800-E4D2-44AF-B444-16FD1D649305}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830A5481-D3B0-4FAE-A57D-7311F9665FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830A5481-D3B0-4FAE-A57D-7311F9665FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830A5481-D3B0-4FAE-A57D-7311F9665FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830A5481-D3B0-4FAE-A57D-7311F9665FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E272C1CA-E31E-4A4E-A7F9-D8D01297D878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E272C1CA-E31E-4A4E-A7F9-D8D01297D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E272C1CA-E31E-4A4E-A7F9-D8D01297D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E272C1CA-E31E-4A4E-A7F9-D8D01297D878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4596F2-C716-45BB-B15E-89A0310832E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4596F2-C716-45BB-B15E-89A0310832E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4596F2-C716-45BB-B15E-89A0310832E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4596F2-C716-45BB-B15E-89A0310832E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

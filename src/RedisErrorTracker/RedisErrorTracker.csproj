@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>PFabIO.Rebus.Retry.ErrorTracking.Redis</AssemblyName>
+        <RootNamespace>PFabIO.Rebus.Retry.ErrorTracking.Redis</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>pfab.io</Authors>
+        <PackageId>PFabIO.Rebus.Retry.ErrorTracking.Redis</PackageId>
+        <Description>Rebus error tracker implementatiom with Redis</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Rebus" Version="8.4.3" />
+      <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+    </ItemGroup>
+
+</Project>
