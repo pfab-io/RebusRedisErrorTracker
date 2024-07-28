@@ -1,6 +1,6 @@
 # Redis Rebus Error Tracker
 
-This repository provides an implementation of an error tracker for Rebus using Redis that replaces automatically the built-in InMemErrorTracker 
+This repository provides an implementation of Rebus error tracker using Redis, that replaces automatically the built-in InMemErrorTracker 
 
 [![QA Build](https://github.com/pfab-io/RebusRedisErrorTracker/actions/workflows/dotnet.yml/badge.svg)](https://github.com/pfab-io/RebusRedisErrorTracker/actions/workflows/dotnet.yml)
 
