@@ -27,8 +27,4 @@
       <ProjectReference Include="..\..\src\RedisErrorTracker\RedisErrorTracker.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\..\src\RedisErrorTracker\RedisErrorTracker.csproj" />
-    </ItemGroup>
-
 </Project>

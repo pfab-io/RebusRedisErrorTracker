@@ -182,7 +182,6 @@ public class RedisErrorTrackerTests
     {
         var retryStrategySettings = new RetryStrategySettings(maxDeliveryAttempts:2);
         
-        
         var db = Substitute.For<IDatabase>();
         _connectionMultiplexer.GetDatabase().Returns(db);
         db.StringGetAsync("rbserror:unitTestQueueName:myMessageId").Returns(
